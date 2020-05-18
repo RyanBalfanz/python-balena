@@ -17,8 +17,8 @@ python_version = "3.7"
 
 [scripts]
 tests = "nosetests"
-tests_coverage = "nosetests --with-coverage --cover-package=hamqth"
-tests_coverage_html = "nosetests --with-coverage --cover-package=hamqth --cover-html"
+tests_coverage = "nosetests --with-coverage --cover-package=balena"
+tests_coverage_html = "nosetests --with-coverage --cover-package=balena --cover-html"
 sdist = "python setup.py sdist"
 bdist_wheel = "python setup.py bdist_wheel"
 twine_upload = "twine upload dist/*"
